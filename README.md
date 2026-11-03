@@ -3,7 +3,70 @@
 
 Puzzle Boxed - https://zayd-game-dev.itch.io/puzzle-boxed 
 
-Game Idea
+## About The Project
+
+**Puzzle Boxed** is a single-player, first-person 3D puzzle game built in **Unity 6 (6000.3.8f1)** with the Universal Render Pipeline (URP) and the Input System. Inspired by games like *Keep Talking and Nobody Explodes*, the game puts you in a room where you must inspect and interact with a mysterious locked box before the timer runs out.
+
+### Gameplay
+
+- **First-Person Controller** – Explore the room in first person with smooth movement and interaction.
+- **Interact With The Box** – Inspect the box, open it, and work through its puzzles by looking closely, rotating pieces, and flipping switches.
+- **Multiple Puzzle Types**:
+    - **Circuit Connection** – The inside of the box reveals a broken circuit; rotate and connect pieces correctly to power it up.
+    - **Number Sequence** – Discover the hidden code by figuring out the correct number sequence.
+    - **Word Cipher** – The final code is hidden in notes found around the room; decode the phrase or combination to activate the box.
+    - **Light Switches** – Toggle switches in the correct order.
+- **Time Limit** – Beat the clock. Solve the final puzzle before time expires.
+- **No Combat** – Pure puzzle solving; the challenge comes from observation and logic, not fighting.
+- **Win Condition** – Solve the final puzzle to win the game.
+
+### Structure & Scenes
+
+- Different scenes cover the **Main Menu**, **Gameplay**, and **Level End** states.
+- Gameplay data (puzzle definitions and settings) is driven by **ScriptableObjects**, making puzzles easy to create and extend.
+- The UI is built with TextMesh Pro and the Skymon icon pack.
+
+### Screenshots
+
+| Main Menu | Gameplay |
+| --- | --- |
+| ![Main Menu](screenshots/main-menu.png) | ![Gameplay](screenshots/gameplay.png) |
+
+| Puzzle – Circuit | Level End |
+| --- | --- |
+| ![Circuit Puzzle](screenshots/puzzle-circuit.png) | ![Level End](screenshots/level-end.png) |
+
+> **Adding screenshots:** Upload your gameplay screenshots into a `screenshots/` folder at the project root with the file names used above (`main-menu.png`, `gameplay.png`, `puzzle-circuit.png`, `level-end.png`), and they will automatically be displayed here. You can also paste screenshots directly into GitHub's web editor — GitHub will handle the hosting for you and update these links.
+
+## Project Folder Structure
+
+```
+Puzzle Boxed/
+├── Assets/
+│   ├── InputActions/          # New Input System action maps (.inputactions)
+│   ├── Materials/             # Materials used across the game
+│   ├── Models/                # 3D models (furniture pack) & .blend source files
+│   ├── Prefabs/               # Reusable prefab objects (player, box, interactables)
+│   ├── Scenes/
+│   │   └── GameScene/         # Main menu, gameplay, and level-end scenes
+│   ├── ScriptableObjects/     # Data-driven puzzle definitions and settings
+│   ├── Scripts/
+│   │   ├── ScriptableObjects/ # ScriptableObject classes
+│   │   └── UI/                # UI-related scripts (menus, HUD, timers)
+│   ├── SkymonIconPackFree/    # Free UI icon pack
+│   ├── Sounds/
+│   │   ├── Music/             # Background music tracks
+│   │   └── SFX/               # Sound effects (clicks, footsteps, bells, locks)
+│   ├── TextMesh Pro/          # TMP essentials (fonts, shaders, sprites)
+│   ├── Textures/              # Texture files
+│   └── URP/                   # Universal Render Pipeline settings
+├── Packages/                  # Unity package manifest (dependencies)
+├── ProjectSettings/           # Unity project configuration
+├── UserSettings/              # Per-user editor settings
+└── README.md                  # This file
+```
+
+## Game Idea
 * Game like Keep talking and Nobody explodes - Interacting with a box
 * Single Player
 * FPS Controller
