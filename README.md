@@ -28,15 +28,17 @@ Puzzle Boxed - https://zayd-game-dev.itch.io/puzzle-boxed
 
 ### Screenshots
 
-| Main Menu | Gameplay |
+| Main Menu | Level-Design |
 | --- | --- |
-| ![Main Menu](screenshots/main-menu.png) | ![Gameplay](screenshots/gameplay.png) |
+| ![Main Menu](MainMenu.jpg) | ![Level Design](Level-Design.jpg) |
 
-| Puzzle – Circuit | Level End |
+| Puzzle Box | Level End |
 | --- | --- |
-| ![Circuit Puzzle](screenshots/puzzle-circuit.png) | ![Level End](screenshots/level-end.png) |
+| ![Puzzle Box Front](PuzzleBoxFront.jpg) | ![Level End](GameOver.jpg) | ![Puzzle Box Back](PuzzleBoxBack.jpg) |
 
-> **Adding screenshots:** Upload your gameplay screenshots into a `screenshots/` folder at the project root with the file names used above (`main-menu.png`, `gameplay.png`, `puzzle-circuit.png`, `level-end.png`), and they will automatically be displayed here. You can also paste screenshots directly into GitHub's web editor — GitHub will handle the hosting for you and update these links.
+| Interacble Objects |
+| --- | --- |
+| ![Interacble Objects](InteractableObjects.jpg) | ![Interacble Objects](InteractableObjects2.jpg) |
 
 ## Project Folder Structure
 
