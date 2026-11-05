@@ -30,15 +30,23 @@ Puzzle Boxed - https://zayd-game-dev.itch.io/puzzle-boxed
 
 | Main Menu | Level-Design |
 | --- | --- |
-| ![Main Menu](MainMenu.jpg) | ![Level Design](Level-Design.jpg) |
+| ![Main Menu](MainMenu.jpg) |
+
+| ![Level Design](Level-Design.jpg) |
 
 | Puzzle Box | Level End |
 | --- | --- |
-| ![Puzzle Box Front](PuzzleBoxFront.jpg) | ![Level End](GameOver.jpg) | ![Puzzle Box Back](PuzzleBoxBack.jpg) |
+| ![Puzzle Box Front](PuzzleBoxFront.jpg) |
+
+| ![Level End](GameOver.jpg) |
+
+| ![Puzzle Box Back](PuzzleBoxBack.jpg) |
 
 | Interacble Objects |
 | --- | --- |
-| ![Interacble Objects](InteractableObjects.jpg) | ![Interacble Objects](InteractableObjects2.jpg) |
+| ![Interacble Objects](InteractableObjects.jpg) |
+
+| ![Interacble Objects](InteractableObjects2.jpg) |
 
 ## Project Folder Structure
 
